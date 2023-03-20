@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: nmmd
+Version: 0.0.3
+Summary: Tools for Non-Magical Multiple Dispatch
+Home-page: http://github.com/twneale/nmmd
+Author: Thom Neale
+Author-email: twneale@gmail.com
+License: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Requires-Dist: hercules
+
+
+Tools abound for single/double/multiple dispatch in python, but most
+resort to blatantly magical trickery, like inspecting and
+injecting names into lower stack frames, allowing strings to be
+passed as code and executed in the dispatchers context, and
+other things this package deems silly and/or garbage.
+
+

@@ -1,0 +1,12 @@
+__author__ = 'Carlos Vigo <carlosv@phys.ethz.ch>'
+__email__ = '<carlosv@phys.ethz.ch>'
+__short_author__ = 'Carlos Vigo'
+__copyright__ = '2020, Carlos Vigo'
+__package_name__ = 'lab-utils'
+__project_name__ = 'Lab Utils'
+__url__ = 'https://gitlab.ethz.ch/exotic-matter/cw-beam/lab-utils'
+__documentation__ = 'https://lab-utils.readthedocs.io'
+__version__ = '0.5.12'
+__short_version__ = '0.5.12'
+__description__ = 'A collection of useful Python modules for laboratory use'
+

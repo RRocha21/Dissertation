@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+uni/__init__.py
+uni/assertions.py
+uni/checker.py
+uni.egg-info/PKG-INFO
+uni.egg-info/SOURCES.txt
+uni.egg-info/dependency_links.txt
+uni.egg-info/requires.txt
+uni.egg-info/top_level.txt
