@@ -27,7 +27,7 @@ z = hh(1:3,3:4:size(hh,2));
 hold on
 
 % Plot the x and y axes vectors
-quiver3(p(1,:),p(2,:),p(3,:),x(1,:),x(2,:),x(3,:),0,'b')
+quiver3(p(1,:),p(2,:),p(3,:),x(1,:),x(2,:),x(3,:),0,'k')
 quiver3(p(1,:),p(2,:),p(3,:),y(1,:),y(2,:),y(3,:),0,'b')
 
 % Plot the z axis vectors
