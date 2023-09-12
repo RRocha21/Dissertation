@@ -6,3 +6,7 @@ Youtube Video to get GPU to run the code
 
 Cond enviroment creation
     https://thegeeksdiary.com/2021/10/07/how-to-setup-tensorflow-with-gpu-support-in-windows-11/
+
+    install tensorflow-gpu 2.10
+    install tensorflow 2.10
+    add conda env through the vsc thingy
