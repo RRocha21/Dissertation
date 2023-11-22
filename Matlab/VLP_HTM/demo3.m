@@ -55,8 +55,8 @@ grid on
 
 
 % Receivers:
-Np = 3;                 % Number of parallels in the sensor
-Nm = 4;                 % Number of meridians in the sensor
+Np = 10;                 % Number of parallels in the sensor
+Nm = 3;                 % Number of meridians in the sensor
 n_Receivers = Np*Nm;    % Number of receivers
 Ar = 1e-6;              % Active receiving area
 Ts = 1;                 % Optical filter gain
@@ -72,7 +72,7 @@ Receivers = newReceivers(n_Receivers,Ar, Ts, n, Psi, R);
 PDSensor = vlpCreateSensorParMer(Receivers, Np, Nm, 0.25,pi/8);
 
 % The sensor is initially placed at point (X,Y) = (0.5,3)
-PDSensor = vlpMoveSensor(PDSensor,Trans3(0.5,3,0));
+PDSensor = vlpMoveSensor(PDSensor,Trans3(1.5,3,0));
 
 
 hold on;

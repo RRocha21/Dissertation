@@ -4,7 +4,7 @@ close
 clc
 %%
 % % nonoise =1
-load('..\Clustering\epsilon_minPts_matrix_62_exp_4.mat')
+% load('..\Clustering\epsilon_minPts_matrix_62_exp_4.mat')
 
 
 %%
